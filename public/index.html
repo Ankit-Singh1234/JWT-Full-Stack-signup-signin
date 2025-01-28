@@ -166,6 +166,10 @@
             localStorage.removeItem("token");
             alert("You have been logged out!");
             document.getElementById("information").innerHTML = "";
+            document.getElementById("signin-username").value="";
+            document.getElementById("signin-password").value="";
+            document.getElementById("signup-username").value="";
+            document.getElementById("signup-password").value="";
             updateUI();
         }
 
